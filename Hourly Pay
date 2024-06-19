@@ -1,5 +1,10 @@
 ## This Script calculates Your Hourly Pay
 
+# print("How would you like to analyze this Job?")
+
+# print("Yearly or hourly?")
+# print("   1. How much is the annual value of this job?   2. What is the hourly pay?   3. How much is the job worth for the rest of the calendar year?")
+
 # Get the average hours per daya nd number of working days
 Avg_Hours_Day = float(input("Enter Avg Hours Worked per Day."))
 Avg_Work_Day = int(input("Enter the Number of Working Days per Week."))
@@ -14,8 +19,3 @@ Annual_Salary = Salary / Annual_Hours
 
 print(Weekly_Hours)
 print(f'Your Hourly Salary is ${Annual_Salary:,.2f}.')
-
-print("How would you like to analyze this Job?")
-
-print("Yearly or hourly?")
-print("   1. How much is the annual value of this job?   2. What is the hourly pay?   3. How much is the job worth for the rest of the calendar year?")
